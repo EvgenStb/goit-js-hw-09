@@ -17,7 +17,7 @@ function createPromise(position, delay) {
 
  
 function runCreatePromises(event) {
-  e.preventDefault();
+  event.preventDefault();
   const inputData = new FormData(event.currentTarget);
   const option = {};
 
